@@ -69,7 +69,7 @@ def Exercice4():
 
 		Ecrire une boucle affichant et incrémentant la valeur de a tant qu'elle reste inferieure a celle de b.
 
-		Ecrire une autre boucle decrementant la valeur de b et affichant sa valeur si elle est impaire.
+		Ecrire une autre boucle decrementant la valeur de b et affichant sa valeur si elle est paire.
 
 		Boucler tant que b n'est pas nul.
 
@@ -144,9 +144,9 @@ def Exercice7():
 			* Renversez et affichez la liste
 			* Affichez l'indice de l'élément 17
 			* Enlevez l'élément 38 et affichez la liste
-			* Affichez la sous-liste du 2eme élément inclus au 3eme élément inclus
+			* Affichez la sous-liste du 2eme élément exclus au 3eme élément inclus
 			* Affichez la sous-liste du premier au deuxieme element inclus
-			* Affichez la liste du 3eme élément inclus à la fin
+			* Affichez la liste du 3eme élément exclus à la fin
 			* Affichez le dernier élément en utilisant un indicage negatif
 
 		Examples
@@ -159,7 +159,6 @@ def Exercice7():
 		>>> [25]
 		>>> [12, 72]
 		>>> [17, 10]
-		>>> [12, 72, 25, 17, 10]
 		>>> 10
 
 		See Also
@@ -202,7 +201,7 @@ def Exercice9():
 	"""
 		**Ecrire une fonction compterMots(chaine) ayant comme argument une chaine de caractères et qui renvoie un dictionnaire qui contient la frequence de tout les mots dans la chaine entrée.**
 		
-		N.B. : La frequence sera exprimée en pourcentage.
+		Bonus : Exprimer cette fréquence en pourcentage.
 
 		Examples
 		--------
@@ -504,7 +503,7 @@ def int2list(val,base):
 
 def complement_at(x,base=2):
 	"""
-		**Ecrivez *en une seule ligne* le corps de la fonction de complement de base.**
+		**Ecrivez en une seule ligne le corps de la fonction de complement de base.**
 
 		============== ========== ======================================
 		**Parametre**   **Type**   **Description**

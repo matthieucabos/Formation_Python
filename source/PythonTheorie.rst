@@ -15,3 +15,4 @@ Python : Théorie
    Fonctions
    ManipulationsDeDonnéesPandas
    VisualisationDeDonnées
+   PourAllerPlusLoin
