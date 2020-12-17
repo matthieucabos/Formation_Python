@@ -7,7 +7,12 @@ def Structures():
 
 		**s=pandas.Series(liste)**
 
-		où liste est une liste de valeurs définnissant le vecteur
+		où liste est une liste de valeurs définnissant le vecteur.
+		.. highlight:: python
+		.. code-block:: python
+		
+		>>> s = pd.Series(data, index=index)
+
 		
 		La taille de la série peut être obtenu via la méthode redéfinie **len(s)**
 		La copie de la serie peut être réalisée via la méthode **s.copy()**
@@ -27,6 +32,28 @@ def Structures():
 			* un tableau numpy suivi des noms de lignes et de colonnes sous la forme suivantes :
 				* **array=numpy.array(l1,l2,l3)**
 				* **dataframe=pandas.DataFrame(array,index=['a1','a2','a3'],columns=['A','B','C','D'])**
+		
+		Examples
+		--------
+
+		>>> # From ndarray
+		>>> s = pd.Series(np.random.randn(5), index=['a', 'b', 'c', 'd', 'e'])
+		>>> s
+		...
+		a    0.469112
+		b   -0.282863
+		c   -1.509059
+		d   -1.135632
+		e    1.212112
+		dtype: float64
+		>>> # From dict
+		>>> d = {'b': 1, 'a': 0, 'c': 2}
+		>>> pd.Series(d)
+		...
+		b    1
+		a    0
+		c    2
+		dtype: int64
 
 	"""
 	pass
